@@ -6,12 +6,12 @@
 body{
 margin-left: 4em;
 margin-right: 4em;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /* header */
-header{
-    /* position: sticky;top: 0; */
-  
-}
+/* header{
+     position: sticky;top: 0; 
+} */
 nav{
     display: flex;
     justify-content: space-between;
