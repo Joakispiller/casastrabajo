@@ -13,6 +13,11 @@ background-color: rgb(252, 252, 252);
 header{
      position: sticky;top: 0; 
      background-color: rgb(252, 252, 252);
+     height: 6em;
+     margin-left: -4em;
+     margin-right: -4em;
+     z-index: 1;
+     box-shadow: 0em 0em 0.1em 0em rgba(160, 159, 159, 0.199);
 }
 nav{
     display: flex;
@@ -28,12 +33,13 @@ margin-top: 0.4em;
 .edificio{
 width: 3.5rem;
 height: 4.5rem;
-margin-left: 0em;
+margin-left: 4em;
 }
- .nombre{
+ .nombree{
     font-size: 0.8rem;
-    margin-top: 2.4em;
+   margin-top: 2em;
     font-weight: 900;
+    
  }
 
 
@@ -49,6 +55,9 @@ margin-left: 0em;
    margin-right: 1.9em;  
    
 }
+.menu1{
+  color: black;
+}
  .menu{
     color:rgb(93, 93, 93);
  }
@@ -59,7 +68,7 @@ margin-left: 0em;
 
  .doritos{
  width: 0.6rem ;
- margin-top: -1.6em;
+ margin-top: -1em;
 margin-right: 1.5em;
 margin-left: 0.3em;
  }
@@ -71,9 +80,10 @@ margin-left: 0.3em;
    color: rgb(241, 239, 239);
    font-size: 0.8rem;
    padding: 0.7em 2em;
-   margin-top: 2em;
+   margin-top: 2.5em;
    border:none ;
    border-radius: 4em;
+   margin-right: 4em;
  }
 
  /* Comienza el main */
@@ -420,10 +430,19 @@ justify-content:space-evenly ;
 /* div1 */
 .edificios{
   display: flex;
+  justify-content:space-between;
+}
+.logoficio{
+  width: 3.5rem;
+height: 4.5rem;
+margin-top: -1.7em;
+
 }
 .lark{
 font-size: 0.8rem ;
 margin-top: 2em;
+margin-right: 12em;
+margin-left: -4em;
 }
 /* div2 */
 .htres{
@@ -475,3 +494,88 @@ margin-left: 0.5em;
   border:none ;
   border-radius: 4em;
 }
+
+/* comenzamos con los hovers */
+
+/* header */
+
+.menu1:hover{
+  color: rgba(92, 91, 91, 0.966);
+  cursor: pointer;
+}
+ .menu:hover{
+color: black;
+cursor: pointer;
+}
+.menu2:hover{
+  color: black;
+  cursor: pointer;
+  }
+
+  .quote:hover{
+  cursor: pointer;
+  color: rgb(57, 82, 182);
+  background-color: transparent;
+  border: 0.1rem solid rgb(57, 82, 182);
+  }
+  .quote{
+    border: 0.1rem solid transparent;
+    transition: 0.3s;
+  }
+
+  /* main */
+  /* primer section */
+
+  
+  .search:hover{
+    border: 0.3rem solid rgb(57, 82, 182);
+
+  }
+  .search{
+    border: 0.3rem solid rgb(250, 250, 250);
+    transition: 0.1s  ;
+  }
+  /* otro */
+ .vermas:hover{
+  background-color: rgba(92, 91, 91, 0.103);
+ }
+ .vermas{
+  transition: 0.1s  ;
+ }
+
+ /* otro */
+ .faqboton:hover{
+  background-color: rgba(92, 91, 91, 0.103);
+ }
+ .faqboton{
+  transition: 0.1s  ;
+ }
+ /* otro */
+ .tildiv:hover{
+  background-color: white;
+ }
+ /* otro */
+ .opinion:hover{
+  background-color: white;
+ }
+ /* otro */
+ .quotenow:hover{
+  cursor: pointer;
+  color: rgb(57, 82, 182);
+  background-color: transparent;
+  border: 0.1rem solid rgb(57, 82, 182);
+  }
+  .quotenow{
+    border: 0.1rem solid transparent;
+    transition: 0.3s;
+  }
+  /* otro */
+  .submit:hover{
+    border: 0.3rem solid rgb(57, 82, 182);
+
+  }
+  .submit{
+    border: 0.3rem solid rgb(241, 239, 239);
+    transition: 0.1s  ;
+  }
+  /* termine los hoversss */
