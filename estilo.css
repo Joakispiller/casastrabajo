@@ -6,12 +6,13 @@
 body{
 margin-left: 4em;
 margin-right: 4em;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-family: 'Nunito'; 
+background-color: rgb(252, 252, 252);
 }
 /* header */
 header{
      position: sticky;top: 0; 
-     background: white;
+     background-color: rgb(252, 252, 252);
 }
 nav{
     display: flex;
@@ -31,7 +32,6 @@ margin-left: 0em;
 }
  .nombre{
     font-size: 0.8rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 2.4em;
     font-weight: 900;
  }
@@ -47,14 +47,13 @@ margin-left: 0em;
  .menu, .menu1{
     font-size: 0.9rem;
    margin-right: 1.9em;  
-   font-family: 'Franklin Gothic Medium';
+   
 }
  .menu{
     color:rgb(93, 93, 93);
  }
  .menu2{
    font-size: 0.9rem;
-   font-family: 'Franklin Gothic Medium';
    color:rgb(93, 93, 93);
  }
 
@@ -70,7 +69,6 @@ margin-left: 0.3em;
  .quote{
    background-color: rgb(57, 82, 182);
    color: rgb(241, 239, 239);
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-size: 0.8rem;
    padding: 0.7em 2em;
    margin-top: 2em;
@@ -79,3 +77,401 @@ margin-left: 0.3em;
  }
 
  /* Comienza el main */
+p{
+   color:rgba(92, 91, 91, 0.884);
+   font-size: 1rem;
+   line-height: 2em;
+ }
+ button{
+  font-family: 'Nunito';
+ }
+ 
+ /* primer section */
+
+ .section1{
+   display: flex;
+   margin-top: 5em;
+ }
+/* div 1 */
+ .family{
+   font-size: 3.7rem;
+   font-weight: bolder;
+ }
+ .pfam{
+   margin-top: 1em;
+ }
+
+ .buscar{
+  display: flex;
+  background: rgb(209, 135, 135);
+  justify-content: space-between;
+  margin-top: 2.8em ;
+  border-radius: 10em;
+  background-color: rgb(250, 250, 250);
+ }
+.lupita{
+  width: 0.9rem;
+  margin-left: 2em;
+}
+.here{
+  border: none;
+  background-color: transparent;
+  margin: 2em 0em 1em 1em;
+ outline: none;
+}
+
+
+.search{
+  background-color: rgb(57, 82, 182);
+   color: rgb(216, 212, 212);
+   font-size: 1.1rem;
+   padding: 0.8em 2.1em;
+   border:none ;
+   border-radius: 4em;
+   margin: 0.5em 0.5em 0.5em 0em;
+}
+ .numeritos{
+display: flex;
+justify-content: space-between;
+margin-top: 2.5em;
+font-size: 1.4rem;
+margin-right: 4.3em;
+ }
+
+ /* imagen */
+
+ .ventanas{
+  border-radius: 1em;
+  margin-left: 8em;
+ border-top: 20em;
+ }
+
+ /* segundo section */
+
+ /* div1 */
+ .factura{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8em;
+  margin-bottom: 4rem;
+ }
+.featured{
+  font-size: 2.5rem;
+}
+/* div 4 fotos */
+ .cuatropic{
+  display: flex;
+
+ }
+.fotoss{
+  margin-right: 1em;
+  border-radius: 1em;
+}
+
+ .precio{
+  padding: 0.8em 2em;
+  margin-top: 1em;
+  margin-left: 1em;
+  position: absolute;
+  border: none;
+  color: white;
+  background-color: black;
+  border-radius: 2rem;
+  font-size: 1rem;
+ }
+
+ /* div 3 */
+
+.Houses{
+  font-size: 2rem;
+  margin-top: 0.8em;
+}
+.ubi{
+  display: flex;
+  margin-top: 0.8em;
+}
+.maps{
+  margin-right: 1em;
+}
+
+/* div 4 */
+.seemore{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6em;
+}
+.vermas{
+  background-color: transparent;
+  color: rgba(92, 91, 91, 0.966);
+  font-size: 1.1rem;
+  padding: 0.8em 2.1em;
+  border: 0.15rem solid rgba(92, 91, 91, 0.925);
+  border-radius: 4em;
+ margin-top: -0.9em;
+}
+
+/* tercer section */
+
+.colorcito{
+   background: rgba(241, 239, 239, 0.856) ; 
+ margin-left: -5em;
+ margin-right: -5em;
+ margin-top: 5em;
+}
+.colorin{
+  display: flex;
+justify-content:space-evenly ;
+}
+/* izquierda */
+.vision{
+  font-size: 2.8rem;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+.mansion{
+  border-radius: 1em;
+  margin-top: 1em ;
+  margin-bottom: 5em;
+}
+/* derecha */
+.livin{
+  border-radius: 1em;
+  margin-top: 5em;
+  margin-bottom: 1em;
+}
+.mision{
+  font-size: 2.8rem;
+  margin-bottom: 0.5em;
+}
+
+/* tercer section */
+/* div1 */
+.easy{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5em;
+ 
+}
+.facil{
+  font-size: 2.8rem;
+}
+.eeasyy{
+  margin-top: 1.5em;
+  margin-left: 2.5em;
+}
+/* div 2 */
+.unodosetc{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5em ;
+  margin-bottom: 4.5em ;
+}
+
+.botonuno{
+  border: none;
+  border-radius: 100%;
+  color: white;
+  background-color: black;
+  padding: 0.5em 0.7em ;
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+}
+.opcionesuno{
+  font-size: 2em;
+}
+
+/* div3 */
+.faq{
+  display: flex;
+  justify-content: space-between;
+}
+.faqboton{
+  background-color: transparent;
+  color: rgba(92, 91, 91, 0.966);
+  font-size: 1.1rem;
+  padding: 0.8em 2.1em;
+  border: 0.15rem solid rgba(92, 91, 91, 0.925);
+  border-radius: 4em;
+ margin-top: -0.9em;
+}
+
+/* quinto section */
+/* div1 */
+
+.tildesalpina{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 9em;
+}
+
+/* div1 */
+.why{
+  font-size: 2.8rem;
+  margin-bottom: 0.4em;
+}
+
+.tildiv{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1em;
+  border-radius: 1em;
+
+  padding: 1em;
+  
+}
+.tilde{
+ font-size: 2rem;
+}
+/* imagen alpina */
+.alpina{
+  border-radius: 1em;
+}
+
+/* sexto section */
+/* primer div */
+.what{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8em;
+}
+.quesay{
+  font-size: 2.5rem;
+}
+.whatsay{
+  margin-top: 1.5em;
+}
+/* segundo div opiniones */
+.opiniones{
+  display: flex;
+  margin-top: 3em;
+ 
+}
+.opinion{
+  border-radius: 1em;
+  padding: 2em;
+ 
+}
+.persona{
+  display: flex;
+  align-items: center;
+}
+.fotito{
+  border-radius: 100%;
+  margin-right: 0.7em;
+  margin-top: 0.9em;
+}
+.nombre{
+  margin-top: 1em;
+  font-size: 1rem;
+}
+
+/* septimo section */
+.pileta{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 9em;
+}
+
+/* div 1 foton */
+.pileton{
+  border-radius: 1em;
+}
+/* div 2 3 fotitos */
+.lets{
+  font-size: 4rem;
+  margin-bottom: 0.5em;
+}
+.quotenow{
+  background-color: rgb(57, 82, 182);
+   color: rgb(241, 239, 239);
+   font-size: 1rem;
+   padding: 1em 2.6em;
+   margin-top: 2em;
+   margin-bottom: 2em;
+   border:none ;
+   border-radius: 4em;
+}
+/* fotitoss */
+.tresfotos{
+  display: flex;
+  justify-content: space-between;
+}
+.interior{
+  border-radius: 1em;
+  margin-right: 0.3em;
+}
+
+/* TERMINO EL MAIN */
+
+/* FOOTER */
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(241, 239, 239, 0.856);
+  margin-top: 4em;
+  margin-left: -4em;
+  margin-right: -4em;
+  padding-top: 5em ;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-bottom: 4em;
+}
+
+/* div1 */
+.edificios{
+  display: flex;
+}
+.lark{
+font-size: 0.8rem ;
+margin-top: 2em;
+}
+/* div2 */
+.htres{
+  margin-bottom: 2em;
+}
+.links{
+  list-style: none;
+}
+.useful{
+  text-decoration: none;
+  color: black;
+ 
+}
+.listita{
+  margin-top: 1em;
+}
+/* div3 ubicacion */
+.getin{
+  margin-bottom: 1em;
+}
+.info{
+  display: flex;
+  margin-bottom: 0.8em;
+
+}
+.svgs{
+  margin-right: 0.4em;
+  margin-top: 0.2em;
+}
+.svgubi{
+margin-left: 0.5em;
+  margin-top: 0.2em;
+}
+/* div4 submit */
+
+.news{
+  margin-top: 1em;
+  border-radius: 1.3em;
+  border: 0.15rem solid rgba(92, 91, 91, 0.966);
+  padding: 1em 3em 1em 0.5em;
+  text-align: start;
+}
+.submit{
+  margin-top: 0.5em;
+  background-color: rgb(57, 82, 182);
+  color: rgb(241, 239, 239);
+  font-size: 0.8rem;
+  padding: 1em 7em;
+  border:none ;
+  border-radius: 4em;
+}

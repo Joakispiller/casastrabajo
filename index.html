@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estilo.css">
+    <!-- fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- header -->
@@ -36,11 +40,18 @@
     <main>
         <!-- primer section -->
        <section>
-        <div>
-            <h1>Bring Your Family's <br> Happines to Your <br>Dream House</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
-            <form> <label> <img src="lupita.svg" alt=""> Search Here <button> Search</button></label> <input type="text"></form>
+        <div class="section1">
+            <!-- primer div -->
             <div>
+            <strong class="family">Bring Your Family's <br> Happines to Your <br>Dream House </strong> 
+    
+            <p class="pfam">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
+<!-- subdiv -->
+           <div class="buscar"> 
+            <form> <label> <img src="lupita.svg" alt="" class="lupita"> </label> <input type="text" class="here" placeholder=" Search Here ">   </form>
+            <button class="search"> Search</button>
+        </div>
+            <div class="numeritos">
                 <div>
                     <h2>280+</h2>
                     <p>Awards Winning</p>
@@ -55,73 +66,86 @@
                 </div>
             </div>
         </div>
-        <img src="casaventanas.jpg" alt="" width="300rem">
+       <!-- segundo div -->
         <div>
+            <img src="casaventanas.jpg" alt="" class="ventanas" width="500rem">
+
         </div>
+     </div>
        </section>
        <!-- segundo section -->
        <!-- div 1 -->
        <section>
+        <div class="factura">
         <div>
-        <div>
-            <h1>Featured Listing</h1>
+            <h1 class="featured">Featured Listing</h1>
         </div>
         <div>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor  incididunt ut labore et dolore magna aliqua. 
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor  incididunt ut labore et dolore magna aliqua. </p>
         </div>
     </div>
     <!-- div 2 -->
-    <div>
+    <div class="cuatropic">
         <div>
-            <button> $2,800,-</button>
-            <img src="ventanal.jpg" alt="" width="300rem">
-            <h2>Ataz Standard <br> House</h2>
-            <img src="ubicacion.svg" alt="" width="30em">
+            <button class="precio"> $2,800,-</button>
+            <img src="ventanal.jpg" alt=""  class="fotoss" width="300rem">
+            <h2 class="Houses">Ataz Standard <br> House</h2>
+            <div class="ubi">
+            <img src="ubicacion.svg" alt="" class="maps" width="20em">
             <p>Pluto Street, Indonesia</p>
         </div>
+        </div>
         <div>
-            <button> $4,800,-</button>
-            <img src="todomadera.jpg" alt="" width="300rem">
-            <h2>Qiri Minimalist <br> House</h2>
-            <img src="ubicacion.svg" alt="" width="30em">
+            <button class="precio"> $4,800,-</button>
+            <img src="todomadera.jpg" alt="" class="fotoss"  width="300rem">
+            <h2 class="Houses">Qiri Minimalist <br> House</h2>
+            <div class="ubi">
+            <img src="ubicacion.svg" alt=""  class="maps"  width="20em">
             <p>Jupiter Street, Indonesia</p>
         </div>
-        <div>
-            <button> $6,800,-</button>
-            <img src="fina.jpg" alt="" width="300rem">
-            <h2>Qanan Luxury<br> House</h2>
-            <img src="ubicacion.svg" alt="" width="30em">
-            <p>Mars Street, Indonesia</p>
         </div>
         <div>
-            <button> $8,800,-</button>
-            <img src="noche.jpg" alt="" width="300rem">
-            <h2>Tingah Elegant<br> House</h2>
-            <img src="ubicacion.svg" alt="" width="30em">
+            <button class="precio"> $6,800,-</button>
+            <img src="fina.jpg" alt="" class="fotoss"  width="300rem">
+            <h2 class="Houses">Qanan Luxury<br> House</h2>
+            <div class="ubi">
+            <img src="ubicacion.svg" alt=""  class="maps"  width="20em">
+            <p>Mars Street, Indonesia</p>
+        </div>
+        </div>
+        <div>
+            <button class="precio"> $8,800,-</button>
+            <img src="noche.jpg" alt="" class="fotoss"  width="300rem">
+            <h2 class="Houses">Tingah Elegant<br> House</h2>
+            <div class="ubi">
+            <img src="ubicacion.svg" alt=""  class="maps"  width="20em">
             <p>Venus Street, Indonesia</p>
+        </div>
         </div>
     </div>
     <!-- div 3 -->
-    <div>
-        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod  tempor  incididunt ut labore et dolore magna aliqua. </div>
+    <div class="seemore">
         <div>
-            <button>See More</button>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod  tempor  incididunt ut labore et dolore magna aliqua.</p> </div>
+        <div>
+            <button class="vermas">See More</button>
         </div>
     </div>
        </section>
        <!-- tercer section -->
-       <section>
-        <div>
+       <section class="colorcito" >
+        <div class="colorin">
             <div> 
-                <h1>Our Vision</h1>
+                <h1 class="vision">Our Vision</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br> eiusmod  tempor  incididunt ut labore et dolore magna aliqua. Ut <br> enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi <br>ut aliquip ex ea commodo consequat. 
                 </p>
-                <img src="mansion.jpg" alt="" width="300rem">
+                <img src="mansion.jpg" alt="" class="mansion" width="500rem">
             </div>
             <div>
-                <img src="livin.jpg" alt="" width="300rem">
-                <h1>Our Mission</h1>
+                <img src="livin.jpg" alt="" class="livin" width="500rem">
+                <h1 class="mision">Our Mission</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br> eiusmod  tempor  incididunt ut labore et dolore magna aliqua. Ut <br> enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi <br>ut aliquip ex ea commodo consequat. 
                 </p>
@@ -132,93 +156,95 @@
        <!-- cuarto section -->
        <section>
     <!-- div1 -->
-        <div>
+        <div class="easy">
             <div>
-                <h2>Easy Step to Buy Prpopety <br> on Dhalem Real Estate</h2>
+                <h2 class="facil">Easy Step to Buy Property <br> on Dhalem Real Estate</h2>
             </div>
             <div>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  eiusmod
-                <br> tempor  incididunt ut labore et dolore magna aliqua.
+               <p class="eeasyy"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  eiusmod
+                <br> tempor  incididunt ut labore et dolore magna aliqua.</p>
             </div>
         </div>
         <!-- div 2 -->
-        <div>
-            <div>
-                <button> 1.</button>
-                <h3>View Listing</h3>
-                <p> Lorem ipsum dolor sit amet, consectetur <br>
+        <div class="unodosetc" >
+            <div class="uno" >
+                <button class="botonuno"> 1.</button>
+                <h3 class="opcionesuno">View Listing</h3>
+                <p> Lorem ipsum dolor sit amet, consec<br>tetur 
                      adipisicing elit, sed do  eiusmod  <br>
                    tempor  incididunt ut labore.</p>
             </div>
-            <div>
-                <button> 2.</button>
-                <h3>Contact Us</h3>
-                <p> Lorem ipsum dolor sit amet, consectetur <br>
+            <div class="uno" >
+                <button class="botonuno"> 2.</button>
+                <h3 class="opcionesuno">Contact Us</h3>
+                <p> Lorem ipsum dolor sit amet, consec<br>tetur 
                      adipisicing elit, sed do  eiusmod  <br>
                    tempor  incididunt ut labore.</p>
             </div>
-            <div>
-                <button> 3.</button>
-                <h3> Request a Visit</h3>
-                <p> Lorem ipsum dolor sit amet, consectetur <br>
+            <div class="uno" >
+                <button class="botonuno"> 3.</button>
+                <h3 class="opcionesuno"> Request a Visit</h3>
+                <p> Lorem ipsum dolor sit amet, consec<br>tetur 
                      adipisicing elit, sed do  eiusmod  <br>
                    tempor  incididunt ut labore.</p>
             </div>
-            <div>
-                <button> 4.</button>
-                <h3> Buy The House</h3>
-                <p> Lorem ipsum dolor sit amet, consectetur <br>
+            <div class="uno" >
+                <button class="botonuno"> 4.</button>
+                <h3 class="opcionesuno"> Buy The House</h3>
+                <p> Lorem ipsum dolor sit amet, consec<br>tetur 
                      adipisicing elit, sed do  eiusmod  <br>
                    tempor  incididunt ut labore.</p>
             </div>
+        </div>
             <!-- div 3 -->
-            <div>
+            <div class="faq">
                 <div>
                     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  eiusmod tempor  incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div>
-                    <button> See Our FAQ</button>
+                    <button class="faqboton"> See Our FAQ</button>
                 </div>
             </div>
-        </div>
+        
        </section>
       
        <!-- quinto section -->
        <section>
-        <div>
+        <div class="tildesalpina">
             <!-- div 1 -->
             <div>
-                <h1>Why Choose Us for Your House Needs?</h1>
+                <h1 class="why">Why Choose Us for Your <br> House Needs?</h1>
                 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  eiusmod <br>
                      tempor  incididunt ut labore et dolore magna aliqua.</p>
-                     <div>
+
+                     <div class="tildiv">
                         <div>
-                        <button> ✓</button>
+                            <img src="tilde.svg" alt=" " width="45rem">
                     </div>
                     <div>
-                        <h2>Comfortable Home Design</h2>
+                        <h2 class="tilde">Comfortable Home Design</h2>
                      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br>
                              eiusmod tempor  incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                      </div>
                      <!-- subdiv -->
-                     <div>
+                     <div class="tildiv">
                         <div>
-                        <button> ✓</button>
+                        <img src="tilde.svg" alt=" " width="45rem">
                     </div>
                     <div>
-                        <h2>Professional Developer</h2>
+                        <h2 class="tilde">Professional Developer</h2>
                      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br>
                              eiusmod tempor  incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                      </div>
                      <!-- subdiv -->
-                     <div>
+                     <div class="tildiv">
                         <div>
-                        <button> ✓</button>
+                            <img src="tilde.svg" alt=" " width="45rem">
                     </div>
                     <div>
-                        <h2>Fast Response</h2>
+                        <h2 class="tilde">Fast Response</h2>
                      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br>
                              eiusmod tempor  incididunt ut labore et dolore magna aliqua.</p>
                     </div>
@@ -226,7 +252,7 @@
             </div>
             <!-- div foto -->
             <div>
-                <img src="alpina.jpg" alt="" width="300em">
+                <img src="alpina.jpg" alt="" class="alpina" width="500em">
             </div>
         </div>
        </section>
@@ -234,69 +260,73 @@
        <!-- sexto section -->
        <section>
         <!-- div1 -->
-        <div>
+        <div class="what">
             <div>
-                <h1> What Says From Our Happy <br> Customers</h1>
+                <h1 class="quesay"> What Says From Our Happy <br> Customers</h1>
             </div>
             <div>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>
+                <p class="whatsay"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>
                      tempor  incididunt ut labore et dolore magna aliqua.</p>
             </div>
         </div>
         <!-- div 2 -->
-        <div>
+        <div class="opiniones">
+
             <!-- subdiv -->
-            <div>
+            <div class="opinion">
                 <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit, sed <br> do eiusmod 
-                    tempor  incididunt ut <br> labore </p>
+                    tempor  incididunt ut <br> labore. </p>
+                    <div class="persona">
                     <div>
-                    <div>
-                        <img src="joaki.jpg" alt="" width="50rem">
+                        <img src="joaki.jpg" alt="" class="fotito" width="30rem">
                     </div>
                     <div>
-                        <h3> Shoo Phar Mhan</h3>
+                        <h3 class="nombre"> Shoo Phar Mhan</h3>
                         <p> Kang Masak</p>
                     </div>
                 </div>
             </div>
+
             <!-- subdiv2 -->
-            <div>
+            <div class="opinion">
                 <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit, sed <br> do eiusmod 
                     tempor  incididunt ut <br> labore. </p>
+                    <div class="persona">
                     <div>
-                    <div>
-                        <img src="pelocorto.jpg" alt="" width="50rem">
+                        <img src="pelocorto.jpg" alt="" class="fotito" width="30rem">
                     </div>
                     <div>
-                        <h3> Shoo Phar Dhie</h3>
+                        <h3 class="nombre"> Shoo Phar Dhie</h3>
                         <p> Kang Basko</p>
                     </div>
                 </div>
             </div>
+
             <!-- subdiv 3 -->
-            <div>
+            <div class="opinion">
                 <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit, sed <br> do eiusmod 
                     tempor  incididunt ut <br> labore. </p>
+                    <div class="persona">
                     <div>
-                    <div>
-                        <img src="yuyu.jpg" alt="" width="50rem">
+                        <img src="yuyu.jpg" alt=""  class="fotito" width="30rem">
                     </div>
                     <div>
-                        <h3> Shoo Yha Thi</h3>
+                        <h3 class="nombre"> Shoo Yha Thi</h3>
                         <p> Kang Ngomet</p>
                     </div>
                 </div>
             </div>
+
             <!-- subdiv4 -->
-            <div>
+            <div class="opinion">
                 <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit, sed <br> do eiusmod 
                     tempor  incididunt ut <br> labore. </p>
+                    <div class="persona">
                     <div>
-                    <div>
-                        <img src="yorojo.jpg" alt="" width="50rem">
+                        <img src="yorojo.jpg" alt="" class="fotito" width="30rem">
                     </div>
                     <div>
-                        <h3> Shoo Mhar Nhi</h3>
+                        <h3 class="nombre"> Shoo Mhar Nhi</h3>
                         <p> Kang Gombat</p>
                     </div>
                 </div>
@@ -306,29 +336,31 @@
         
        <!-- septimo section -->
        <section>
+        <div class="pileta">
         <!-- div1 -->
         <div>
-            <img src="pileta.jpg" alt="" width="400rem">
+            <img src="pileta.jpg" alt="" class="pileton" width="500rem">
         </div>
         <!-- div2 -->
         <div>
-            <h1>Let's Move to Your Dream Family Home</h1>
+            <h1 class="lets">Let's Move to Your <br> Dream Family Home</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
                 tempor <br>  incididunt ut labore et dolore magna aliqua.</p>
-                <button>Get Quote Now</button>
+                <button class="quotenow">Get Quote Now</button>
                 <!-- subdiv -->
-                <div>
+                <div class="tresfotos">
                     <div>
-                        <img src="hogar.jpg" alt="" width="200rem">
+                        <img src="hogar.jpg" alt="" class="interior" width="180rem">
                     </div>
                     <div>
-                        <img src="habitacion.jpg" alt="" width="200rem">
+                        <img src="habitacion.jpg" alt="" class="interior"   width="180rem">
                     </div>
                     <div>
-                        <img src="interior.jpg" alt="" width="200rem">
+                        <img src="interior.jpg" alt="" class="interior"  width="180rem">
                     </div>
                 </div>
         </div>
+    </div>
        </section>
     </main>
     <!-- termino el main -->
@@ -336,15 +368,15 @@
     <!-- comienza el footer -->
     <footer>
 
-        <div>
+        <div class="footer">
             <!-- div1 -->
-            <div>
-              <div>
+            <div >
+              <div class="edificios">
                 <div>
                    <img src="logoedif.jpg" class="edificio" alt="">
                 </div>
                 <div>
-                    <h3>Lark Homes</h3>
+                    <strong class="lark">Lark Homes</strong>
                 </div>
             </div>
                 <p> Lorem ipsum dolor sit amet,consec <br>
@@ -353,39 +385,39 @@
             </div>
             <!-- div2 -->
             <div>
-                <h3>Useful Links</h3>
-                <ul>
-                    <li><a href="#"> Listeng</a></li>
-                    <li><a href="#"> About Us</a></li>
-                    <li><a href="#"> Contact Us</a></li>
-                    <li><a href="#"> Our Team</a></li>
+                <h3 class="htres">Useful Links</h3>
+                <ul class="links">
+                    <li class="listita"><a href="#" class="useful"> Listeng</a></li>
+                    <li  class="listita"><a href="#" class="useful"> About Us</a></li>
+                    <li  class="listita"><a href="#" class="useful"> Contact Us</a></li>
+                    <li  class="listita"><a href="#" class="useful"> Our Team</a></li>
                 </ul>
             </div>
             <!-- div3 -->
             <div>
-                <h3>Get in Touch</h3>
+                <h3 class="getin">Get in Touch</h3>
                 <!-- subdiv -->
-                <div>
+                <div class="info">
                     <div>
-                        <img src="ubicacion.svg" alt="" width="50rem">
+                        <img src="ubicacion.svg" alt="" class="svgs" width="23rem">
                     </div>
                     <div> 
                         <p>123 Anywhere Street, Any <br> City, 12345 ST, Indonesia</p>
                     </div>
                 </div>
                 <!-- subdiv2 -->
-                <div>
+                <div class="info">
                     <div>
-                        <img src="telefono.svg" alt="" width="50rem">
+                        <img src="telefono.svg" alt="" class="svgs" width="35rem">
                     </div>
                     <div> 
                         <p>+123 456 7890</p>
                     </div>
                 </div>
                 <!-- subdiv3 -->
-                <div>
+                <div class="info">
                     <div>
-                        <img src="mail.svg" alt="" width="50rem">
+                        <img src="mail.svg" alt="" class="svgubi" width="23rem">
                     </div>
                     <div> 
                         <p>hello@larkhomes.com</p>
@@ -397,8 +429,8 @@
             <!-- div 4 -->
             <div>
                 <h3>Newsletter</h3>
-                <form> <label></label> <input type="mail" name="" id=""></form>
-                <button>Submit</button>
+                <form > <label></label> <input class="news" type="mail" placeholder="Your Email"></form>
+                <button class="submit">Submit</button>
             </div>
         </div>
 
