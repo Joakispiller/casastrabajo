@@ -578,4 +578,25 @@ cursor: pointer;
     border: 0.3rem solid rgb(241, 239, 239);
     transition: 0.1s  ;
   }
+  
+
   /* termine los hoversss */
+  
+  /* menu */
+  .menuu{
+    display: none;
+  }
+  /* mediaqueres*/
+  @media( max-width: 480px ){
+   .Home{
+    display: none;
+   }
+   .quote{
+    display: none;
+   }
+.menuu{
+  display: block;
+}
+
+  }
+   
